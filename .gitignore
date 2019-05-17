@@ -1,0 +1,5 @@
+*~
+*.bak
+
+# toolchains have prebuilt .o
+#*.o
