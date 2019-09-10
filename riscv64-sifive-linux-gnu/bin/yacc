@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host/bin/bison' -y "$@"

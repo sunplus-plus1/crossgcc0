@@ -1,0 +1,11 @@
+prefix=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host
+exec_prefix=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host
+libdir=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host/lib
+includedir=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.33.0
+Requires.private: uuid
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

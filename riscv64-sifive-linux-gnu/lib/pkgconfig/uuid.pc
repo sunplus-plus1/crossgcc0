@@ -1,0 +1,11 @@
+prefix=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host
+exec_prefix=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host
+libdir=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host/lib
+includedir=/home/qinjian/freedom-u-sdk/work/buildroot_initramfs/host/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.33.0
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
