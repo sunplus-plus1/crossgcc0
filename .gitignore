@@ -1,5 +1,7 @@
 *~
 *.bak
+*.pyc
+.gdb_history
 
 # toolchains have prebuilt .o
 #*.o
