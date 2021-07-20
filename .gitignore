@@ -2,6 +2,8 @@
 *.bak
 *.pyc
 .gdb_history
+gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/
+gcc-arm-9.2-2019.12-x86_64-arm-none-eabi/
 
 # toolchains have prebuilt .o
 #*.o
